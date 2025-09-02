@@ -1,6 +1,6 @@
 # 01-setup
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ft9TJ2nk)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AnaQYUGl)
 Lab 1: Getting Set Up
 
 Objective:  Setup the tools that we'll be using this semester in Stat 386.
@@ -23,17 +23,20 @@ Submission: Add a file called complete.txt (this can be an empty file) to the re
         - git config --global user.email "your_email_here"
 
 ---
-### 2. Anaconda 
-1. Download and install [anaconda](https://www.anaconda.com/download) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) onto your computer
-2. Create a virtual environment for our class:
-    * In the terminal (Mac) or Anaconda promt (Windows) type
-    ```conda create --name stat386 python==3.11```
-    * Activate the environment you just created:
-    ```conda activate stat386```
-    * Conda install the packages we will use for this class:
-    ```conda install beautifulsoup4 bokeh hdf5 html5lib ipykernel jupyter ipython matplotlib matplotlib-base matplotlib-inline nltk notebook numpy openpyxl pandas pillow requests scikit-learn scrapy seaborn scipy statsmodels plotly```
-    * Install some of the other packages that we'll be using:
-    ```pip install streamlit```
+### 2. uv (Python environment manager)
+1. Make sure you have Python 3.11 installed. You can download it from python.org.
+2. Install uv
+   ```curl -LsSf https://astral.sh/uv/install.sh | sh```
+3. Create a new folder for this project (e.g., stat386-lab1) and initialize a virtual environment:
+    * In the terminal (Mac) or git bash (Windows) type
+    ```mkdir stat386-lab1```
+    ```cd stat386-lab1```
+    ```uv venv```
+    * Activate the environment:
+        * Linux / Mac
+          ```source .venv/bin/activate```
+        * Windows
+          ```.venv\Scripts\activate```
 ---
 ### 3. VS Code
 1. Download and install [VS Code](https://code.visualstudio.com/)

@@ -30,7 +30,9 @@ Submission: Add a file called complete.txt (this can be an empty file) to the re
 3. Create a new folder for this project (e.g., stat386-lab1) and initialize a virtual environment:
     * In the terminal (Mac) or git bash (Windows) type
     ```mkdir stat386-lab1```
+    * Change directories
     ```cd stat386-lab1```
+    * Create a new virtual environment
     ```uv venv```
     * Activate the environment:
         * Linux / Mac

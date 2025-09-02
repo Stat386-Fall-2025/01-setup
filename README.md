@@ -5,7 +5,7 @@ Lab 1: Getting Set Up
 
 Objective:  Setup the tools that we'll be using this semester in Stat 386.
 
-Instructions: Follow the direction below to get Git, GitHub, Anaconda, and VS Code up and running.
+Instructions: Follow the direction below to get Git, GitHub, uv, and VS Code up and running.
 
 Submission: Add a file called complete.txt (this can be an empty file) to the repository. Commit and push to github.
 

@@ -49,6 +49,16 @@ Submission: Add a file called complete.txt (this can be an empty file) to the re
 3. Sign into GitHub through VS Code by clicking on the "GitHub" icon on the left most toolbar and clicking "Sign in". (*Note: You will first need to sign up for a [GitHub](https://github.com) account if you don't have one already*.)
 
 ---
+### 4. Quarto
+1. Download and install Quarto from the official [website](https://quarto.org/docs/get-started/)
+2. Verify installation
+    * Open a terminal or Git Bash and type
+    ```quarto check```
+    * You should see a summary confirming that Quarto is installed and integrated with VS Code and Jupyter
+3. (Optional but recommended) Install the Quarto VS Code Extension
+    * Search for "Quarto" in the VS Code Extensions tab and click "install"
+
+---
 ---
 ## Setup Github
 1. Create a [Github](https://github.com/) account (if you haven't already done so)
